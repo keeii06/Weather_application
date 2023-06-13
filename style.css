@@ -687,4 +687,33 @@ footer .copyright {
         font-size: 20px;
     }
 }
+@media screen and (max-width: 380px) {
+
+    .hamburger {
+        right: 10px;
+        top: 46px;
+    }
+
+    .temperature img {
+        width: 80px;
+        margin-bottom: 18px;
+
+    }
+
+    .sunrise-sunset h3 {
+        font-size: 15px;
+        margin-right: 5px;
+    }
+
+    .sunrise span,
+    .sunset span {
+        margin-right: 5px;
+        font-size: 20px;
+    }
+
+    .hours-box {
+        width: 100px;
+        height: 120px;
+    }
+}
 
